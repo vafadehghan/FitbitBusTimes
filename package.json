@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "62109bea-d8e8-4f7e-9131-fff292d6c2cf",
+    "appType": "app",
+    "appDisplayName": "Translink",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Translink"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
